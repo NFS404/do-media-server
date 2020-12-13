@@ -1,0 +1,28 @@
+{
+  "name": "do-media-server",
+  "version": "1.0.0",
+  "description": "Media Server API for DigitalOcean",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "Tanmay Vij",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.809.0",
+    "aws4": "^1.11.0",
+    "axios": "^0.21.0",
+    "bcrypt-nodejs": "0.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "multer": "^1.4.2",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  }
+}
