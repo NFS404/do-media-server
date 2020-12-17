@@ -19,7 +19,7 @@ app.use(express.urlencoded());
 app.use(express.json());
 
 app.use('/api', system);
-app.use('/', express.static('public'));
+app.use('/', express.static('build'));
 
 const server = app.listen(app.get('port'), function() {
 	console.log(server.address());
