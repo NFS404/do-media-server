@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const system = require('./system');
 
-app.set('port', process.env.PORT ? process.env.PORT : 3000);
+app.set('port', process.env.PORT ? process.env.PORT : 8080);
 
 app.use(function(req, res, next) {
 	console.log(req.method, req.url);
